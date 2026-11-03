@@ -1,0 +1,9 @@
+# Removes features some people use - review each line.
+com.microsoft.appmanager                      # Link to Windows
+com.microsoft.deviceintegrationservice
+com.microsoftsdk.crossdeviceservicebroker
+com.google.android.apps.tachyon               # Google Meet
+com.google.android.projection.gearhead        # Android Auto
+com.google.android.apps.bard                  # Gemini
+com.android.hotwordenrollment.okgoogle        # "Hey Google" voice match
+com.android.hotwordenrollment.xgoogle

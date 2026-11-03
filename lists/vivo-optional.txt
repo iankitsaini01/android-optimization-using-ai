@@ -1,0 +1,12 @@
+# vivo / iQOO features some people use. Result on iQOO 12 in [brackets].
+com.vivo.pushservice     # vivo push - vivo apps lose notifications [protected -> restricted]
+com.vivo.cota            # carrier OTA, reinstalls bloat [protected -> restricted]
+com.vivo.hiboard         # Jovi -1 home screen [protected -> restricted]
+com.vivo.assistant       # Jovi smart scenes [protected -> restricted]
+com.vivo.easyshare       # [removed]
+com.vivo.pcsuite         # [protected -> restricted]
+com.vivo.vhome           # vivo smart home [removed]
+com.vivo.tws.vivotws     # vivo earbuds [removed]
+com.vivo.weather         # [removed]
+com.vivo.videoeditor     # [protected -> restricted]
+com.android.bbkmusic     # vivo Music [disabled]

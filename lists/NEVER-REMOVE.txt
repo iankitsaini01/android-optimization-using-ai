@@ -1,0 +1,16 @@
+# Regex patterns (full package name match). debloat.sh refuses these unless FORCE=1.
+# Removing any of these can cause bootloops, lost calls/data, or a locked-out device.
+android
+com\.android\.(systemui|phone|settings|server\.telecom|shell|providers\..*|launcher3|vending|nfc|bluetooth|se|mms\.service|externalstorage|keychain|location\.fused|inputdevices|intentresolver|permissioncontroller|packageinstaller|incallui|carrierconfig.*)
+com\.google\.android\.(gms|gsf|webview|permissioncontroller|packageinstaller|providers\..*|networkstack.*|ext\.services|ext\.shared|modulemetadata|documentsui|setupwizard|ondevicepersonalization\.services|adservices\.api|configupdater|rkpdapp|cellbroadcast.*|captiveportallogin)
+com\.google\.mainline\..*
+com\.qualcomm\..*
+com\.qti\..*
+vendor\.qti\..*
+org\.codeaurora\.ims
+.*\.overlay(\..*)?
+.*(fingerprint|faceunlock|faceui).*
+# vivo / iQOO core
+com\.vivo\.(daemonService|abe|sps|pem|epm|frameworkui|systemuiplugin|upslide|recents|connbase.*|devicepower|crontab|vms|safecenter|appfilter|setupwizard|gamewatch)
+com\.bbk\.(account|updater|SuperPowerSave)
+com\.iqoo\.powersaving
